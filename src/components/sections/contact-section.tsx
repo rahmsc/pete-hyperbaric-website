@@ -14,7 +14,6 @@ const ContactSection = () => {
           <ArrowTopRightIcon className="h-24 w-24 text-black" />
         </Link>
       </div>
-      <div className="mt-8 border-t border-gray-300" />
     </div>
   );
 };

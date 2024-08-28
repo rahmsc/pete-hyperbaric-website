@@ -1,5 +1,5 @@
 import CallToAction from "../../../components/call-to-action";
-import EmblaCarousel from "../../../components/guide-carousel";
+import OneImageGuideCarousel from "../../../components/guides/carousels/one-image-guide-carousel";
 import CategoriesComponent from "../../../components/guides/categories-component";
 import GuidesListing from "../../../components/guides/guide-listings";
 import PopularPosts from "../../../components/guides/popular-guides";
@@ -9,7 +9,7 @@ const ProviderGuides = () => {
     <section className="flex w-full flex-row items-center justify-center pt-32">
       <div>
         <h1 className="text-3xl font-bold">Wellness Provider Guides</h1>
-        <EmblaCarousel />
+        <OneImageGuideCarousel />
         <CallToAction />
         <div className="container mx-auto flex px-4 py-8">
           <GuidesListing />

@@ -3,22 +3,11 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 import { researchItems } from "../../data/researchDataDemo";
+import { conditions } from "~/data/article";
 
 const Research = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
   const router = useRouter();
-
-  const conditions = [
-    "All",
-    "Neurological",
-    "Mental Health",
-    "Cardiovascular and Blood",
-    "Immune and Chronic",
-    "Bone and Tissue",
-    "Sensory",
-    "Pain Management",
-    "Specific Syndromes",
-  ];
 
   const handleCategoryClick = (category: string) => {
     setSelectedCategory(category);

@@ -18,6 +18,18 @@ export interface ArticleItemProps {
   keywords: string;
 }
 
+export const conditions = [
+  "All",
+  "Neurological",
+  "Mental Health",
+  "Cardiovascular and Blood",
+  "Immune and Chronic",
+  "Bone and Tissue",
+  "Sensory",
+  "Pain Management",
+  "Specific Syndromes",
+];
+
 export const articleDatabase = [
   {
     id: 1,

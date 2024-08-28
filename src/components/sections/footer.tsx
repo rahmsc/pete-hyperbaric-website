@@ -5,6 +5,7 @@ import { InstagramLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
 const Footer = () => {
   return (
     <footer className="bg-custom-bg mb-12 py-12 text-black">
+      <div className="mb-8 border-t border-gray-300" />
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           {/* Column 1: Logo and Reserved Rights */}
