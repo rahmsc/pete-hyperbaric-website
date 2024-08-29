@@ -13,14 +13,14 @@ const RolePopup: FC<RolePopupProps> = ({ onSelectRole }) => {
         <h2 className="mb-4 text-2xl font-bold">Who are you?</h2>
         <button
           onClick={() => onSelectRole("provider")}
-          className="mr-4 rounded bg-blue-500 px-4 py-2 text-white"
+          className="mr-4 rounded bg-orange-500 px-4 py-2 text-white"
           type="button"
         >
           Wellness Provider
         </button>
         <button
           onClick={() => onSelectRole("user")}
-          className="rounded bg-green-500 px-4 py-2 text-white"
+          className="rounded bg-gray-500 px-4 py-2 text-white"
           type="button"
         >
           Home User

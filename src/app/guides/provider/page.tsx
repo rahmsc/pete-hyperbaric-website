@@ -6,17 +6,25 @@ import PopularPosts from "../../../components/guides/popular-guides";
 
 const ProviderGuides = () => {
   return (
-    <section className="flex w-full flex-row items-center justify-center pt-32">
-      <div>
-        <h1 className="text-3xl font-bold">Wellness Provider Guides</h1>
-        <OneImageGuideCarousel />
+    <section className="flex flex-col items-center pt-32">
+      <div className="w-full max-w-4xl px-4">
+        <h1 className="mb-8 text-center text-3xl font-bold">
+          Wellness Provider Guides
+        </h1>
+        <div className="mx-auto mb-8 w-full max-w-xl">
+          <OneImageGuideCarousel />
+        </div>
+      </div>
+      <div className="w-full bg-gray-100">
+        {" "}
+        {/* Adjust background color as needed */}
         <CallToAction />
-        <div className="container mx-auto flex px-4 py-8">
-          <GuidesListing />
-          <div className="ml-8 w-1/3">
-            <PopularPosts />
-            <CategoriesComponent />
-          </div>
+      </div>
+      <div className="flex w-full max-w-4xl flex-col gap-8 px-4 md:flex-row">
+        <GuidesListing />
+        <div className="w-full md:w-1/3">
+          <PopularPosts />
+          <CategoriesComponent />
         </div>
       </div>
     </section>
